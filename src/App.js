@@ -10,6 +10,7 @@ import Order from "./Pages/Order";
 import Payment from "./Pages/Payment";
 import BuyProperty from "./Pages/BuyProperty";
 import Profile from "./Pages/Profile";
+import ViewProperty from "./Pages/ViewProperty";
 
 function App(){
   return(
@@ -26,6 +27,8 @@ function App(){
           <Route exact path="/payment" element={<Payment/>}/>
           <Route exact path="/buy" element={<BuyProperty/>}/>
           <Route exact path="/profile" element={<Profile/>}/>
+          <Route exact path="/view" element={<ViewProperty/>}/>
+          <Route exact path="/admin" element={<AdminPanel/>}/>
         </Routes>
     </Router>
     </>

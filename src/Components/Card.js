@@ -42,7 +42,7 @@ export default function Cards(props) {
           </div>
 
           <h3 className="h3 card-title">
-            <Link to="/order">{props.intro}</Link>
+            <Link to="/view">View Details</Link>
           </h3>
 
           <p className="card-text">{props.detail}</p>

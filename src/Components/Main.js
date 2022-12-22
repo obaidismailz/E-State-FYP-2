@@ -213,7 +213,7 @@ export default function Main() {
                         </div>
   
                         <h3 className="h3 card-title">
-                          <a href="#">Purchase</a>
+                        <Link to="/view">View Details</Link>
                         </h3>
   
                         <p className="card-text">
@@ -323,7 +323,7 @@ export default function Main() {
                         </div>
   
                         <h3 className="h3 card-title">
-                          <a href="#">Purchase</a>
+                        <Link to="/view">View Details</Link>
                         </h3>
   
                         <p className="card-text">
@@ -433,7 +433,7 @@ export default function Main() {
                         </div>
   
                         <h3 className="h3 card-title">
-                          <a href="#">Comfortable Apartment</a>
+                          <Link to="/view">View Details</Link>
                         </h3>
   
                         <p className="card-text">
@@ -544,7 +544,7 @@ export default function Main() {
                         </div>
   
                         <h3 className="h3 card-title">
-                          <a href="#">Luxury villa in Rego Park</a>
+                          <Link to="/view">View Details</Link>
                         </h3>
   
                         <p className="card-text">
