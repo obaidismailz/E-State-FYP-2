@@ -7,7 +7,7 @@
 
   --dark-jungle-green: hsl(188, 63%, 7%);
   --prussian-blue: hsl(200, 69%, 14%);
-  --raisin-black-1: hsl(227, 29%, 13%);
+  --raisin-black-1: #3C404E;
   --raisin-black-2: hsl(229, 17%, 19%);
   --yellow-green: hsl(89, 72%, 45%);
   --orange-soda: hsl(9, 100%, 62%);
@@ -265,7 +265,7 @@ button, a { transition: var(--transition); }
 }
 
 .header-top {
-  background: var(--prussian-blue);
+  background: var(--raisin-black-1);
   padding-block: 15px;
 }
 
@@ -279,7 +279,7 @@ button, a { transition: var(--transition); }
 
 .header-top .container { gap: 8px 20px; }
 
-.header-top-list { gap: 15px; }
+.header-top-list { gap: 150px; }
 
 .header-top-link {
   color: var(--white);
@@ -330,7 +330,7 @@ button, a { transition: var(--transition); }
   padding-block: 25px;
 }
 
-.header-bottom .logo img { margin-inline: auto; }
+.header-bottom .logo img { margin-inline: auto;display:inline }
 
 .navbar {
   background: var(--white);

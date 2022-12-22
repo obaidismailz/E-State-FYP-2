@@ -3,22 +3,22 @@ import { Link } from "react-router-dom";
 import logo from "./Assets/images/logo-light.png";
 
 export default function Header() {
-  const links={
-    color: "white"
-  }
+  const links = {
+    color: "white",
+  };
   return (
     <>
       <header className="header" data-header>
         <div className="overlay" data-overlay></div>
-        <div className="header-bottom">
-          <div className="container">
-            <a href="#" className="logo">
+        <div style={{marginTop:"40px"}} className="header-bottom">
+          <div  className="container">
+          <a href="#" class="logo">
               <img
-                src={require("./Assets/images/logo-light.png")}
+                src={require("./Assets/images/LOGO5.png")}
                 alt="Homeverse logo"
+                style={{width:"150px"}}
               />
-            </a>
-
+             </a>
             <nav className="navbar" data-navbar>
               <div className="navbar-top">
                 <a href="#" className="logo">
@@ -38,83 +38,66 @@ export default function Header() {
               </div>
 
               <div className="navbar-bottom">
-                <ul className="navbar-list">
+                <ul style={{marginTop:"20px"}} className="navbar-list">
                   <li>
-                  <Link
-                          to="/home"
-                          className="navbar-link"
-                          style={links}
-                        >
-                          Home
-                  </Link>
+                    <Link to="/home" className="navbar-link" style={links}>
+                      Home
+                    </Link>
                   </li>
 
                   <li>
-                    <a href="#about" style={links} className="navbar-link" data-nav-link>
+                    <a
+                      href="#about"
+                      style={links}
+                      className="navbar-link"
+                      data-nav-link
+                    >
                       About
                     </a>
                   </li>
 
                   <li>
-                  <Link
-                          to="/buy"
-                          className="navbar-link"
-                          style={links}
-                        >
-                          Find Property
-                  </Link>
+                    <Link to="/buy" className="navbar-link" style={links}>
+                      Find Property
+                    </Link>
                   </li>
 
                   <li>
-                    <a href="#contact" style={links} className="navbar-link" data-nav-link>
-                      Contact
+                    <a href="#" className="navbar-link" style={links}>
+                      SwitchAccount
                     </a>
-                  </li>
-                  
-                  <li>
-                    <Link
-                          to="/signup"
-                          className="navbar-link"
-                          style={links}
-                        >
-                          SingUp
-                    </Link>
                   </li>
                 </ul>
               </div>
             </nav>
 
             <div className="header-bottom-actions">
-              <button className="header-bottom-actions-btn" aria-label="Search">
-                <ion-icon name="search-outline"></ion-icon>
-
-                <span>Search</span>
-              </button>
-
-              <button
-                className="header-bottom-actions-btn"
-                aria-label="Profile"
-              >
-                <ion-icon name="person-outline"></ion-icon>
-
-                <span>Profile</span>
-              </button>
-
-              <button className="header-bottom-actions-btn" aria-label="Cart">
-                <ion-icon name="cart-outline"></ion-icon>
-
-                <span>Cart</span>
-              </button>
-
-              <button
-                className="header-bottom-actions-btn"
-                data-nav-open-btn
-                aria-label="Open Menu"
-              >
-                <ion-icon name="menu-outline"></ion-icon>
-
-                <span>Menu</span>
-              </button>
+              <div style={{ marginTop: "10px" }} class="input-group">
+                <div class="form-outline">
+                  <input type="search" id="form1" class="form-control" />
+                </div>
+                <button
+                  style={{ width: "50px", height: "40px" }}
+                  type="button"
+                  class="btn"
+                >
+                  <ion-icon name="search-outline"></ion-icon>
+                </button>
+              </div>
+              <Link className="nav-link " to="/profile">
+                <img
+                  src={require("./Assets/images/Obaid.PNG")}
+                  style={{
+                    width: "60px",
+                    height: "60px",
+                    marginTop: "10px",
+                    border: "2px solid red",
+                    borderRadius: "50%",
+                    overflow: "auto",
+                    objectFit: "cover",
+                  }}
+                />
+              </Link>
             </div>
           </div>
         </div>

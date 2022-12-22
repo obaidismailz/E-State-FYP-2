@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Cards(props) {
   return (
     <>
@@ -40,12 +42,10 @@ export default function Cards(props) {
           </div>
 
           <h3 className="h3 card-title">
-            <a href="#">{props.intro}</a>
+            <Link to="/order">{props.intro}</Link>
           </h3>
 
-          <p className="card-text">
-           {props.detail}
-          </p>
+          <p className="card-text">{props.detail}</p>
 
           <ul className="card-list">
             <li className="card-item">

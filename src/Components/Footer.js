@@ -7,16 +7,17 @@ export default function Footer() {
           <div className="footer-top">
             <div className="container">
               <div className="footer-brand">
-                <a href="#" className="logo">
-                  <img
-                    src={require("./Assets/images/logo-light.png")}
-                    alt="Homeverse logo"
-                  ></img>
-                </a>
-  
+              <a href="#" class="logo">
+              <img
+                src={require("./Assets/images/LOGO5.png")}
+                alt="Homeverse logo"
+                style={{width:"200px"}}
+              />
+             </a>
                 <p className="section-text">
-                  Lorem Ipsum is simply dummy text of the and typesetting
-                  industry. Lorem Ipsum is dummy text of the printing.
+                  Ghar say Ghar Lo. Easily buy and sell real estates
+                  with the option of view and creating 3d Walkthrough 
+                  of real estates. 
                 </p>
   
                 <ul className="contact-list">

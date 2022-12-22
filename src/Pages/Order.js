@@ -1,7 +1,7 @@
 import '../Components/Assets/css/order.css'
 import Header from '../Components/Header'
 import Footer from '../Components/Footer.js'
-
+import { Link } from "react-router-dom";
 export default function Order() {
   return (
     <>
@@ -24,9 +24,9 @@ export default function Order() {
                 <p className="price-plan">Flat, 2 bedrooms</p>
               </div>
             </div>
-            <button className="btn-process">
+            <Link to="/payment" className="btn-process" style={{textDecoration:"none"}}>
               Proceed to Payment
-            </button>
+            </Link>
             <a href="#" className="btn-cancel">
               Cancel Order
             </a>

@@ -9,6 +9,7 @@ import AdminPanel from "./Pages/AdminPanel";
 import Order from "./Pages/Order";
 import Payment from "./Pages/Payment";
 import BuyProperty from "./Pages/BuyProperty";
+import Profile from "./Pages/Profile";
 
 function App(){
   return(
@@ -24,6 +25,7 @@ function App(){
           <Route exact path="/order" element={<Order/>}/>
           <Route exact path="/payment" element={<Payment/>}/>
           <Route exact path="/buy" element={<BuyProperty/>}/>
+          <Route exact path="/profile" element={<Profile/>}/>
         </Routes>
     </Router>
     </>
