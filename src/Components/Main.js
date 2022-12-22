@@ -17,8 +17,7 @@ export default function Main() {
                   <h2 className="h1 hero-title">Find Your Dream House By Us</h2>
   
                   <p className="hero-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                    do eiusmod tempor incididunt ut labore.
+                    At E-State we provide best customer service.Buy and sell Houses through our platform
                   </p>
   
                   <button className="btn">Make An Enquiry</button>
@@ -96,8 +95,7 @@ export default function Main() {
                   </ul>
   
                   <p className="callout">
-                    "Enimad minim veniam quis nostrud exercitation llamco laboris.
-                    Lorem ipsum dolor sit amet"
+                    "3d Walkthrough available for all the real estates"
                   </p>
   
                   <a href="#service" className="btn">
@@ -154,8 +152,8 @@ export default function Main() {
                       </h3>
   
                       <p className="card-text">
-                        over 1 million+ homes for sale available on the website,
-                        we can match you with a house you will want to call home.
+                        Add a property with the option of creating a 3d Walkthrough
+                        to increase chances of sale
                       </p>
   
                       <a href="#" className="card-link">
@@ -186,13 +184,13 @@ export default function Main() {
                           ></img>
                         </a>
   
-                        <div className="card-badge green">For Rent</div>
+                        <div className="card-badge green">For Sale</div>
   
                         <div className="banner-actions">
                           <button className="banner-actions-btn">
                             <ion-icon name="location"></ion-icon>
   
-                            <address>Belmont Gardens, Chicago</address>
+                            <address>F8/3 Ambassador Islamabad</address>
                           </button>
   
                           <button className="banner-actions-btn">
@@ -211,16 +209,15 @@ export default function Main() {
   
                       <div className="card-content">
                         <div className="card-price">
-                          <strong>$34,900</strong>/Month
+                          <strong>Rs20000</strong>
                         </div>
   
                         <h3 className="h3 card-title">
-                          <a href="#">New Apartment Nice View</a>
+                          <a href="#">Purchase</a>
                         </h3>
   
                         <p className="card-text">
-                          Beautiful Huge 1 Family House In Heart Of Westbury.
-                          Newly Renovated With New Wood
+                          Beautiful Huge 1 Family House. Newly Renovated With New paint job
                         </p>
   
                         <ul className="card-list">
@@ -254,7 +251,7 @@ export default function Main() {
                         <div className="card-author">
                           <figure className="author-avatar">
                             <img
-                              src={require("./Assets/images/author.jpg")}
+                              src={require("./Assets/images/Aamir.PNG")}
                               alt="William Seklo"
                               className="w-100"
                             ></img>
@@ -262,7 +259,7 @@ export default function Main() {
   
                           <div>
                             <p className="author-name">
-                              <a href="#">William Seklo</a>
+                              <a href="#">Aamir Yasin</a>
                             </p>
   
                             <p className="author-title">Estate Agents</p>
@@ -297,13 +294,13 @@ export default function Main() {
                           ></img>
                         </a>
   
-                        <div className="card-badge orange">For Sales</div>
+                        <div className="card-badge orange">For Sale</div>
   
                         <div className="banner-actions">
                           <button className="banner-actions-btn">
                             <ion-icon name="location"></ion-icon>
   
-                            <address>Belmont Gardens, Chicago</address>
+                            <address>G8/2 G8 Markaaz Islamabad</address>
                           </button>
   
                           <button className="banner-actions-btn">
@@ -322,21 +319,20 @@ export default function Main() {
   
                       <div className="card-content">
                         <div className="card-price">
-                          <strong>$34,900</strong>/Month
+                          <strong>Rs40000</strong>
                         </div>
   
                         <h3 className="h3 card-title">
-                          <a href="#">Modern Apartments</a>
+                          <a href="#">Purchase</a>
                         </h3>
   
                         <p className="card-text">
-                          Beautiful Huge 1 Family House In Heart Of Westbury.
-                          Newly Renovated With New Wood
+                            Beautiful Huge 1 Family House. Newly Renovated With New paint job
                         </p>
   
                         <ul className="card-list">
                           <li className="card-item">
-                            <strong>3</strong>
+                            <strong>4</strong>
   
                             <ion-icon name="bed-outline"></ion-icon>
   
@@ -344,7 +340,7 @@ export default function Main() {
                           </li>
   
                           <li className="card-item">
-                            <strong>2</strong>
+                            <strong>3</strong>
   
                             <ion-icon name="man-outline"></ion-icon>
   
@@ -352,7 +348,7 @@ export default function Main() {
                           </li>
   
                           <li className="card-item">
-                            <strong>3450</strong>
+                            <strong>5000</strong>
   
                             <ion-icon name="square-outline"></ion-icon>
   
@@ -365,7 +361,7 @@ export default function Main() {
                         <div className="card-author">
                           <figure className="author-avatar">
                             <img
-                              src={require("./Assets/images/author.jpg")}
+                              src={require("./Assets/images/Obaid.PNG")}
                               alt="William Seklo"
                               className="w-100"
                             ></img>
@@ -373,7 +369,7 @@ export default function Main() {
   
                           <div>
                             <p className="author-name">
-                              <a href="#">William Seklo</a>
+                              <a href="#">Obaid Ismail</a>
                             </p>
   
                             <p className="author-title">Estate Agents</p>
@@ -408,7 +404,7 @@ export default function Main() {
                           ></img>
                         </a>
   
-                        <div className="card-badge green">For Rent</div>
+                        <div className="card-badge green">For Sale</div>
   
                         <div className="banner-actions">
                           <button className="banner-actions-btn">
@@ -433,7 +429,7 @@ export default function Main() {
   
                       <div className="card-content">
                         <div className="card-price">
-                          <strong>$34,900</strong>/Month
+                          <strong>Rs34,900</strong>
                         </div>
   
                         <h3 className="h3 card-title">
@@ -447,7 +443,7 @@ export default function Main() {
   
                         <ul className="card-list">
                           <li className="card-item">
-                            <strong>3</strong>
+                            <strong>2</strong>
   
                             <ion-icon name="bed-outline"></ion-icon>
   
@@ -455,7 +451,7 @@ export default function Main() {
                           </li>
   
                           <li className="card-item">
-                            <strong>2</strong>
+                            <strong>1</strong>
   
                             <ion-icon name="man-outline"></ion-icon>
   
@@ -463,7 +459,7 @@ export default function Main() {
                           </li>
   
                           <li className="card-item">
-                            <strong>3450</strong>
+                            <strong>3000</strong>
   
                             <ion-icon name="square-outline"></ion-icon>
   
@@ -476,7 +472,7 @@ export default function Main() {
                         <div className="card-author">
                           <figure className="author-avatar">
                             <img
-                              src={require("./Assets/images/author.jpg")}
+                              src={require("./Assets/images/Umar.jpg")}
                               alt="William Seklo"
                               className="w-100"
                             ></img>
@@ -484,7 +480,7 @@ export default function Main() {
   
                           <div>
                             <p className="author-name">
-                              <a href="#">William Seklo</a>
+                              <a href="#">Umar Akhtar</a>
                             </p>
   
                             <p className="author-title">Estate Agents</p>
@@ -519,7 +515,7 @@ export default function Main() {
                           ></img>
                         </a>
   
-                        <div className="card-badge green">For Rent</div>
+                        <div className="card-badge green">For Sale</div>
   
                         <div className="banner-actions">
                           <button className="banner-actions-btn">
@@ -544,7 +540,7 @@ export default function Main() {
   
                       <div className="card-content">
                         <div className="card-price">
-                          <strong>$34,900</strong>/Month
+                          <strong>$34,900</strong>
                         </div>
   
                         <h3 className="h3 card-title">
